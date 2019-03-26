@@ -21,9 +21,6 @@ public class SoccerTeam {
 		//b) insert player at corresponding position and set Team and number (position+1) for the player
 		//players[i] = player
 		for(int i=0; i<players.length;i++) {
-//			if(i==0) {
-//			return false;	
-//			}
 			if(players[i]==null) {
 				players[i] = player;
 				player.setTeam(this);
